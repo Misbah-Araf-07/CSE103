@@ -8,14 +8,14 @@
 
     printf("Please give three numbers:");
     scanf("%d %d %d",&a,&b,&c);
-    if    ((a<b)&&(b<c)&&(a<c))
+    if    ((a<=b)&&(a<=c))
              printf("%d is the smallest number",a);
 
 
-   if     ((b<c)&&(b<a))
+    else  if  ((b<=c)&&(b<=a))
              printf("%d is the smallest number",b);
 
-    if    ((c<b)&&(c<a))
+    else
              printf("%d is the smallest number",c);
 
 
