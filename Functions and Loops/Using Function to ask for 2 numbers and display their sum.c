@@ -58,26 +58,6 @@ void getSum()
 ////Method-2.5 : Using Void. here , it is just to show that the void function part can be written at the beginning too . It Shows that main work or process starts from int main and whatever is in it , and something outside the int main body works only when something calls from within the int main body . 
 
 /*
-void getSum()
-{
-    int a,b;
-    printf("Please Input two numbers : ");
-    scanf("%d %d",&a,&b);
-    printf("SUM= %d\n",a+b);
-
-
-}
-
-
-int main ()
-{
-    getSum();
-    return 0;
-
-}
-
-/*
-
 
 void getSum()
 {
@@ -96,6 +76,9 @@ int main ()
     return 0;
 
 }
+
+
+
 
 
 */
