@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <ctype.h>
+
+
+    int main ()
+{   int a=65, b ;
+    for ( ; a<=90; a++)
+        printf("%c ",a);
+    return 0 ;
+}
