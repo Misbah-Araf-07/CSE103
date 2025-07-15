@@ -1,0 +1,43 @@
+#include <stdio.h>
+//print number from 1 to n using loop
+int main ()
+{
+    int n,number;
+    printf("Please Enter a number: ");
+    scanf("%d",&n);
+    number = 1;
+
+    while (number<=n)
+    {
+           if (number>1)
+                printf(" ");
+            printf("%d",number);
+            number++;
+    }
+    printf("\n");
+return 0 ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
