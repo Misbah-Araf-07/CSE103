@@ -1,0 +1,30 @@
+#include <stdio.h>
+//print natural number from n to 1 using loop
+int main ()
+{
+    int n,number;
+    printf("Please Enter a number: ");
+    scanf("%d",&n);
+    number = n;
+
+    while (number>=1)
+    {
+              if (number<n)
+                printf(" ");
+            printf("%d",number--);
+
+    }
+    printf("\n");
+
+return 0 ;
+
+}
+
+
+
+
+
+
+
+
+
