@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <ctype.h>
+
+
+int main ()
+{
+    {
+        int a=65;
+        for ( ; a<=90; a++)
+            if(a>=90)
+                printf(" ");
+            else
+                printf("%c",a);
+    }
+    printf(" \n");
+    {
+        int a=97;
+        for ( ; a<=122 ; a++)
+            if (a>122)
+               printf(" ");
+            else
+                printf("%c",a);
+
+    }
+        printf(" \n");
+    return 0 ;
+}
