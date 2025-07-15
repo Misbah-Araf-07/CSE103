@@ -1,3 +1,5 @@
+//method -1:
+
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -25,7 +27,67 @@ bool isPrime(int x)
          printf("Divisor= %d\n\n",i);
           return false ;
 
+
      }
     }
           return true;
 }
+
+
+
+
+
+//method -2:
+
+
+
+#include <stdio.h>
+#include <stdbool.h>
+#include<math.h>
+
+bool isPrime(int x);
+int main ()
+{   printf("Please Give a Number: \t ");
+    int n;
+    scanf("%d", &n);
+    if ( isPrime(n))
+        printf("%d is prime\n",n);
+    else
+        printf("%d is non prime\n",n);
+    return 0;
+
+}
+
+bool isPrime(int x)
+{
+    if (x==1)
+          return false ;
+    for (int i =2;i<=sqrt(x);i++)
+    {
+     if (x%i==0)
+     {
+         printf("Divisor= %d\n\n",i);
+          return false ;
+
+     }
+    }
+          return true;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
