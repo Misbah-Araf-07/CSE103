@@ -1,0 +1,23 @@
+#include <stdio.h>
+//Write a C program to check whether a number is divisible by 5 and 11 or not using if else.
+int main()
+{
+   int a,A,B;
+   A%5==0;
+   B%11==0;
+   printf("Please Give a Number: ");
+   scanf("%d",&a);
+    if(a%5==0  || a%11==0 )
+    {
+      if (a%5==0  && a%11==0)
+        printf("%d is divisible both by 5 and 11\n",a);
+      else if (a%5==0)
+        printf("%d is divisible only by 5\n",a);
+
+      else
+        printf("%d is divisible only by 11\n",a);
+    }
+    else
+        printf("%d is not divisible by other 5 or 11\n",a);
+
+}
