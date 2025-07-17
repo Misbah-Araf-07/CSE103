@@ -19,5 +19,5 @@ int main()
     }
     else
         printf("%d is not divisible by other 5 or 11\n",a);
-
+   return 0 ;
 }
