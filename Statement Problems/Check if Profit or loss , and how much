@@ -1,0 +1,23 @@
+//Write a C program to input cost price and selling price of a product and check profit or loss. Also calculate total profit or loss using if else
+
+#include <stdio.h>
+int main ()
+{
+    int c,s;
+    printf("Please Input the cost price in tk: ");
+    scanf("%d" ,&c);
+    printf("\nNow Please input the Selling price in tk : ");
+    scanf("%d",&s);
+    if (c>0 && s>0)
+
+        if (c>s)
+            printf("It was a bad deal. You've lossed %d tk\n",(c-s));
+        else if (c==s)
+            printf("You've sold at the breakeven price\n");
+        else
+            printf("Perfect. You sold it at a %d tk profit\n",(s-c));
+    else
+        printf("Invalid Input\n");
+
+    return 0;
+}
