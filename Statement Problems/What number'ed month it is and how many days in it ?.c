@@ -23,7 +23,7 @@ int main()
             }
             else if (m==2)
             {
-                if ((y%4==0)||(y%100==0)||(y%400==0))
+                if ((y%400==0)|| (y%100==0 && y%4==0))
                 {
                     printf("It is February\n");
                     printf("There are 29 days in this month\n");
