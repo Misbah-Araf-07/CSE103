@@ -17,7 +17,7 @@ int main ()
     scanf("%d %f", &n1.page, &n1.rating);
 
     printf("Book info : \n");
-    printf("%s %s %d %.2f \n", n1.name, n1.Author, n1.page, n1.rating);
+    printf("%s %s %d %.3f \n", n1.name, n1.Author, n1.page, n1.rating);
 
     printf("\n");
 
