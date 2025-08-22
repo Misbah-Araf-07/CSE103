@@ -41,9 +41,8 @@ int main ()
 
 
 
-
+//ALTERNATIVE WAY 
 //#include <stdio.h>
-//
 //int main()
 //{
 //    int i, num1, num2, min;
