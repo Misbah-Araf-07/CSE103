@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-void findOdd(int x, int y, int z) {
+void findOdd(int x, int y, int z) 
+{
     printf("Winner: ");
 
     if (x==y && y==z)
@@ -17,32 +18,36 @@ void findOdd(int x, int y, int z) {
         printf("No winner\n");
 }
 
-int main() {
+int main() 
+{
     int a, b, c;
 
 
     printf("Alice, Please Enter 0 or 1: ");
     scanf("%d", &a);
-    while (a<0 || a>1) {
+    while (a<0 || a>1)
+        {
         printf("Alice, re-enter 0 or 1: ");
         scanf("%d", &a);
-    }
+        }
 
 
     printf("Bob, Please Enter 0 or 1: ");
     scanf("%d", &b);
-    while (b<0 || b>1) {
+    while (b<0 || b>1)
+        {
         printf("Bob, re-enter 0 or 1: ");
         scanf("%d", &b);
-    }
+        }
 
 
     printf("Clara, Please Enter 0 or 1: ");
     scanf("%d", &c);
-    while (c<0 || c>1) {
+    while (c<0 || c>1) 
+        {
         printf("Clara, re-enter 0 or 1: ");
         scanf("%d", &c);
-    }
+        }
 
     printf("Alice: %d\nBob: %d\nClara: %d\n\n", a, b, c);
 
