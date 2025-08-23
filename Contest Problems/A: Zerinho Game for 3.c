@@ -69,3 +69,155 @@ int main ()
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//int main ()
+//{   int a,b,c;
+//    char N,A,B,C;
+//    a=0,b=0,c=0;
+//    printf("Please Enter Your Name: ");
+//    scanf("%c",&N);
+//        if (N=='Alice')
+//            {
+//            printf("Please Enter 0 or 1: ");
+//            scanf("%d",&a);
+//            }
+//        else if (N=='Bob')
+//            {
+//            printf("Please Enter 0 or 1: ");
+//            scanf("%d",&b);
+//            }
+//        else if (N=='Clara')
+//            {
+//            printf("Please Enter 0 or 1: ");
+//            scanf("%d",&c);
+//            }
+//      printf("Alice: %d\nBob: %d\nClara: %d\n",a,b,c);
+//
+//    return 0;
+//}
+
+
+//
+//int main ()
+//{   int a,b,c;
+//    char N,A,B,C;
+//    a=0,b=0,c=0;
+//    printf("Please Enter Your Name: ");
+//    scanf("%c",&N);
+//    switch (N)
+//    {
+//
+//        case'Alice':
+//            {
+//            printf("Please Enter 0 or 1: ");
+//            scanf("%d",&a);
+//            }
+//            break;
+//
+//        case'Bob':
+//            {
+//            printf("Please Enter 0 or 1: ");
+//            scanf("%d",&b);
+//            }
+//            break;
+//        case'Clara':
+//            {
+//            printf("Please Enter 0 or 1: ");
+//            scanf("%d",&c);
+//            }
+//            break;
+//         default : printf("You are not in the team\n");
+//
+//    }
+//      printf("Alice: %d\nBob: %d\nClara: %d\n",a,b,c);
+//
+//    return 0;
+//}
+//
+//
+//
+//
+//
+//
+//
+
+
+//
+//int main ()
+//{   int n,a,b,c;
+//    char N,A,B,C;
+//
+//
+//    printf("Please Enter Your Name: ");
+//    scanf("%c",&N);
+//
+//    for (int i=0;i<3;i++)
+//        {
+//        printf("Please Enter Your Name: ");
+//        scanf("%c",&N);
+//
+//        printf("Please Enter 0 or 1: ");
+//        scanf("%d",&n);
+//        switch (N)
+//            {
+//            case'Alice':
+//                {
+//                n==a;
+//                }
+//                break;
+//
+//        case'Bob':
+//                {
+//                n=b;
+//                }
+//                break;
+//        case'Clara':
+//                {
+//                n==c;
+//                }
+//                break;
+//         default : printf("You are not in the team\n");
+//            }
+//
+//         }
+//
+//
+//
+//
+//    printf("\n");
+//    printf("Alice: %d\nBob: %d\nClara: %d\n",a,b,c);
+//
+//
+//    return 0;
+//}
+
+
+
