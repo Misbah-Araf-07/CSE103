@@ -1,74 +1,55 @@
 //Problem A: Finding the Unique Value (Winner among Alice,Bob,Clara) in Zerinho
 
 #include <stdio.h>
-#include <stdbool.h>
-void findOdd(int x , int y , int z)
-{   printf("Winner : ");
+
+void findOdd(int x, int y, int z) {
+    printf("Winner: ");
 
     if (x==y && y==z)
         printf("*\n");
-
     else if (x!=y && y==z)
         printf("A\n");
-    else if (x!=y && x==z)
+    else if (y!=x && x==z)
         printf("B\n");
-    else if (x==y && y!=z)
+    else if (z!=x && x==y)
         printf("C\n");
+    else
+        printf("No winner\n");
 }
 
-
-
-int main ()
-{   int a,b,c;
-    char N,A,B,C;
+int main() {
+    int a, b, c;
 
 
     printf("Alice, Please Enter 0 or 1: ");
-    scanf("%d",&a);
-        for ( ;a<0 || a>1; )
-        {
-        printf("Alice,re-enter: ");
-        scanf("%d",&a);
-        }
-    printf("\n");
-
+    scanf("%d", &a);
+    while (a<0 || a>1) {
+        printf("Alice, re-enter 0 or 1: ");
+        scanf("%d", &a);
+    }
 
 
     printf("Bob, Please Enter 0 or 1: ");
-    scanf("%d",&b);
-        for ( ;a<0 || a>1; )
-        {
-        printf("Bob,re-enter: ");
-        scanf("%d",&b);
-        }
-    printf("\n");
-
+    scanf("%d", &b);
+    while (b<0 || b>1) {
+        printf("Bob, re-enter 0 or 1: ");
+        scanf("%d", &b);
+    }
 
 
     printf("Clara, Please Enter 0 or 1: ");
-    scanf("%d",&c);
-        for ( ;a<0 || a>1; )
-        {
-        printf("Clara,re-enter: ");
-        scanf("%d",&c);
-        }
+    scanf("%d", &c);
+    while (c<0 || c>1) {
+        printf("Clara, re-enter 0 or 1: ");
+        scanf("%d", &c);
+    }
 
-    printf("\n");
+    printf("Alice: %d\nBob: %d\nClara: %d\n\n", a, b, c);
 
-
-
-
-    printf("Alice: %d\nBob: %d\nClara: %d\n",a,b,c);
-    printf("\n");
-
-    findOdd(a,b,c);
-
-
+    findOdd(a, b, c);
 
     return 0;
 }
-
-
 
 
 
