@@ -1,17 +1,16 @@
 #include <stdio.h>
 
 void reverseArray(int *arr, int size) {
-    int *start = arr;           // Pointer to first element
-    int *end = arr + size - 1;  // Pointer to last element
+    int *start = arr;           
+    int *end = arr + size - 1;  
     
-    while (start < end) {
-        // Swap elements at start and end pointers
-        int temp = *start;
+    while (start < end) 
+    {   int temp = *start;
         *start = *end;
         *end = temp;
         
-        start++;  // Move start pointer forward
-        end--;    // Move end pointer backward
+        start++; 
+        end--;   
     }
 }
 
